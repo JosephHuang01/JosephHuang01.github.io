@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Joseph Huang personal portfolio and software engineering site." />
+    <title>Joseph Huang | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="theme-switcher" aria-label="Theme switcher">
+      <button class="theme-btn active" data-theme="sunset" aria-label="Sunset theme">Sunset</button>
+      <button class="theme-btn" data-theme="ocean" aria-label="Ocean theme">Ocean</button>
+      <button class="theme-btn" data-theme="midnight" aria-label="Midnight theme">Midnight</button>
+    </div>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <div class="brand">Joseph Huang</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Software Engineer</p>
+          <h1>Turning ideas into impactful technology.</h1>
+          <p class="lead">
+            I build products and systems that blend engineering depth with user-focused design,
+            bringing clarity, creativity, and practical value to every project.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Let’s Connect</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Problem-solver with a product mindset.</h2>
+        </div>
+        <p>
+          I’m a developer who enjoys building useful tools, thoughtful interfaces,
+          and reliable systems. My work sits at the intersection of engineering,
+          design thinking, and real-world problem solving.
+        </p>
+      </section>
+
+      <section id="projects" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work</h2>
+          </div>
+
+          <div class="project-group">
+            <h3 class="group-title">Code-Driven</h3>
+            <div class="card-grid">
+              <article class="card project-card code-card">
+                <h4>Self-Driving Cars</h4>
+                <p>
+                  A hands-on project exploring autonomous driving concepts, simulation,
+                  and perception-driven decision making using code-based systems.
+                </p>
+              </article>
+
+              <article class="card project-card code-card">
+                <h4>SQL Data Warehouse Project</h4>
+                <p>
+                  A data engineering initiative focused on designing and querying a
+                  structured warehouse for reporting, analysis, and scalable insights.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="project-group">
+            <h3 class="group-title">AI-Enabled</h3>
+            <div class="card-grid">
+              <article class="card project-card ai-card">
+                <h4>Number-Guessing Game</h4>
+                <p>
+                  An interactive game that combines logic, user experience, and simple
+                  AI-inspired decision patterns to create a polished guessing experience.
+                </p>
+              </article>
+
+              <article class="card project-card ai-card">
+                <h4>Pomodoro Timer</h4>
+                <p>
+                  A focused productivity timer designed to support study and work
+                  sessions with clear, calming interactions and efficient controls.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect.</h2>
+        </div>
+        <p>
+          I’m open to collaboration, product opportunities, and conversations about building
+          thoughtful technology. Connect with me on LinkedIn.
+        </p>
+        <a class="button primary" href="https://www.linkedin.com/in/huang-joseph/" target="_blank" rel="noreferrer">Joseph Huang | LinkedIn</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
