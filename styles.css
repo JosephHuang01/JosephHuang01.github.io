@@ -294,6 +294,23 @@ body[data-theme="midnight"] .ai-card {
   color: var(--muted);
 }
 
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.project-link:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
 @media (max-width: 640px) {
   .nav {
     flex-direction: column;
